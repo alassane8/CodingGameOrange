@@ -14,9 +14,4 @@ class Article extends Model
         'Content',
         'Source',
     ];
-    
-    public function categorie()
-    {
-        return $this->belongsTo(Categorie::class);
-    }
 }
